@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
     public int solution(int[] array) {
@@ -6,10 +6,8 @@ class Solution {
         
         Arrays.sort(array);
         int max = array[array.length - 1];
-        // cnt 배열의 크기 설정
         int[] cnt = new int[max + 1];
         
-        // array[i]의 값에 해당하는 인덱스에 cnt++
         for(int i = 0; i < array.length; i++) {
             cnt[array[i]]++;
         }
