@@ -1,5 +1,6 @@
 class Solution {
     public int[] solution(int n) {
+        
         int[] answer = new int[(n + 1) / 2];
         
         for (int i = 1; i <= n; i++) {
@@ -7,6 +8,7 @@ class Solution {
                 answer[i / 2] = i;
             }
         }
+        
         return answer;
     }
 }
