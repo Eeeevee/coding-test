@@ -1,4 +1,5 @@
 class Solution {
+    
     public double solution(int[] numbers) {
         
         int answer = 0;
