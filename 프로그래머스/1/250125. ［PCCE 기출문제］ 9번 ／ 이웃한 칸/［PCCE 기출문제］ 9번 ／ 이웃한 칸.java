@@ -1,5 +1,6 @@
 class Solution {
     public int solution(String[][] board, int h, int w) {
+        
         int count = 0;
         int n = board.length;
         int[] dh = new int[]{0, 1, -1, 0};
