@@ -1,4 +1,5 @@
 class Solution {
+    
     public int solution(int n) {
         
         double answer = (double) n / 7;
