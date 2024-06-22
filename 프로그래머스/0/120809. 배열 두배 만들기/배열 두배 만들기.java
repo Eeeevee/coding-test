@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 class Solution {
-    
     public int[] solution(int[] numbers) {
         
         for (int i = 0; i < numbers.length; i++) {
